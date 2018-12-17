@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+
+main()
+{
+	int a, b, c;
+	printf("menentukan segitiga sama sisi atau bukan\n");
+	printf("=======================================\n\n");
+
+	printf("masukkan panjang sisi a : ");
+	scanf("%d",&a); fflush (stdin);
+
+	printf("masukkan panjang sisi b : ");
+	scanf("%d",&b); fflush (stdin);
+
+	printf("masukkan panjang sisi c : ");
+	scanf("%d",&c); fflush (stdin);
+
+	printf("\n=======================================\n\n");
+	if(a==b && b==c)
+        printf("segitiga sama sisi\n");
+	else
+	    printf("bukan segitiga sama sisi\n");
+	return 0;
+
+}
